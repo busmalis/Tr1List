@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tr1List</string>
+
+    <string name="itemlistEdit">Edit</string>
+
+    <string name="itemlistDelete">Delete</string>
+    
+    
+</resources>

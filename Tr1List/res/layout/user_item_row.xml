@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/BackgroundLayout" >
+
+    <LinearLayout
+        android:id="@+id/UlyProduct"
+        style="@style/ListItemLayout"
+        tools:ignore="UselessParent" >
+
+        <CheckBox
+            android:id="@+id/UCheckbox"
+            style="@style/ListItemCheckbox" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/UtxtText"
+                style="@style/ListItemText"
+                android:text="TEST" />
+
+        </LinearLayout>
+
+       <!--  <Button
+            android:id="@+id/PLitemlistDelete"
+            style="@style/ListItemButton" /> -->
+    </LinearLayout>
+
+</LinearLayout>

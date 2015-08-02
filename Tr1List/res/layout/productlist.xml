@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/BackgroundLayout"
+    android:background="@drawable/gradient"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        style="@style/HeaderLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/PLHeader"
+            style="@style/HeaderItemLayout"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:visibility="gone" >
+
+            <EditText
+                android:id="@+id/PLetProductList"
+                style="@style/HeaderItemEditBox"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" 
+                android:inputType="textCapSentences">
+            </EditText>
+
+            <Button
+                android:id="@+id/PLbAddProductList"
+                style="@style/HeaderAddItemButton"
+                android:onClick="addItem" />
+
+            <Button
+                android:id="@+id/PLbEditProductList"
+                style="@style/HeaderEditItemButton"
+                android:onClick="editItem" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/PLproductlistview"
+        style="@style/ListLayout"
+        android:layout_width="match_parent" >
+    </ListView>
+
+</LinearLayout>

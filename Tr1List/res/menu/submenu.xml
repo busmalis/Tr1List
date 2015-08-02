@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/subMenuShare"  
+        style="@style/HeaderItemShareButton"         
+        android:showAsAction="ifRoom"
+        android:title="Share" /> 
+    
+    <item
+        android:id="@+id/subMenuEdit"
+       	style="@style/HeaderItemEditButton"
+       	android:showAsAction="ifRoom"
+       	android:title="Edit"/>   
+     
+     <item
+        android:id="@+id/subMenuDelete"
+       	style="@style/HeaderItemDeleteButton"
+       	android:showAsAction="ifRoom"
+        android:title="Delete"/>
+     
+</menu>

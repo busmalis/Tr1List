@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/BackgroundLayout" >
+
+    <LinearLayout
+        android:id="@+id/lyProduct"
+        style="@style/ListItemLayout"
+        tools:ignore="UselessParent" >
+
+        <CheckBox
+            android:id="@+id/Checkbox"
+            style="@style/ListItemCheckbox" />
+        
+        <TextView
+            android:id="@+id/txtText"
+            style="@style/ListItemText" />
+
+        <!-- <Button
+            android:id="@+id/itemDelete"
+            style="@style/ListItemButton" /> -->
+    </LinearLayout>
+
+</LinearLayout>

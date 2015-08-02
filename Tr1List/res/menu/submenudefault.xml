@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+     <item
+        android:id="@+id/subMenuNew"
+       	style="@style/HeaderItemNewButton"
+        android:title="New"
+        android:showAsAction="ifRoom"  />
+     
+     <item
+        android:id="@+id/subMenuClose"
+       	style="@style/HeaderItemCloseButton"
+        android:title="Close"
+        android:showAsAction="ifRoom"
+        android:visible="false"  />
+     
+     <item
+        android:id="@+id/subMenuSettings"
+       	style="@style/HeaderItemSettingsButton"
+        android:title="Settings"
+        android:showAsAction="never" />
+     
+</menu>
